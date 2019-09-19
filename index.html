@@ -14,7 +14,6 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/index.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -22,26 +21,45 @@
     <title> </title>
   </head>
   <body>
-    <!-- Nav Section -->
-    <nav>
-      x
-    </nav>
+    <div class="container">
+      <main>
+        <nav class="bborder" style="padding: 1em;">
+          <ul>
+            <li class="linkToPanes" id="linkTolink1">Link 1</li>
+            <li class="linkToPanes" id="linkTolink2">Link 2</li>
+            <li class="linkToPanes" id="linkTolink3">Link 3</li>
+            <li class="linkToPanes" id="linkTolink4">Link 4</li>
+            <li class="linkToPanes" id="linkTolink5">Hide All Panes</li>
+          </ul>
+        </nav>
+        <div class="content bborder" id="content" style="padding: 1em;">
+          
+          <!-- Different panes -->
+          <div class="page" id="link1">
+            <h1>Link 1</h1>
+          </div>
+  
+          <div class="page" id="link2">
+            <h1>Link 2</h1>
+          </div>
+  
+          <div class="page" id="link3">
+            <h1>Link 3</h1>
+          </div>
+  
+          <div class="page" id="link4">
+            <h1>Link 4</h1>
+          </div>
 
-    <!-- Header Section -->
-    <header>
-      y
-    </header>
+        </div>
+        
 
-    <!-- Main Section -->
-    <main>
-      <section>
-        <article>
-          z
-        </article>
-      </section>
-    </main>
+      </main>
+    </div>
 
     <!-- Optional JavaScript -->
+    <script src="./js/app.js"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -30,3 +30,53 @@ main, html, body {
 }
 
 /* Page Content */ 
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+nav, .content {
+  height: 100vh;
+  padding: 1 em;
+}
+
+nav {
+  width: 10 em;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.content {
+  width: 80%;
+}
+
+/* Different Pages */
+
+.page {
+  display: none;
+}
+
+.linkToPanes:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#link1 {
+  background: green;
+}
+
+#link2 {
+  background: red;
+}
+
+#link3 {
+  background: yellow;
+}
+
+#link4 {
+  background: blue;
+}
